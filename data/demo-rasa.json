@@ -1,0 +1,5090 @@
+{
+   "rasa_nlu_data":{
+      "regex_features":[
+
+      ],
+      "entity_synonyms":[
+
+      ],
+      "common_examples":[
+         {
+            "text":"I need personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I am can't come",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I need going out",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"need leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"need a leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"apply leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"give me leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"leave man",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"bot I need leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+            "text":"bot give me leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply for loss of pay leave from 22 june 2019 to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":21,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":45,
+                  "entity":"from_date",
+                  "start":28,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":62,
+                  "entity":"to_date",
+                  "start":46,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+        {
+            "text":"apply wedding can't come between 27 august till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"wedding"
+               },
+               {
+                  "end":42,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":56,
+                  "entity":"to_date",
+                  "start":43,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"need going out",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"am on loss of pay going out from tomorrow to 22 june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":28,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":57,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"to 22 june 2019"
+               }
+            ]
+         },
+         {
+            "text":"am loss of pay unavailable from 27th aug to 27 aug",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":3,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":40,
+                  "entity":"from_date",
+                  "start":27,
+                  "value":"from 27th aug"
+               },
+               {
+                  "end":50,
+                  "entity":"to_date",
+                  "start":41,
+                  "value":"to 27 aug"
+               }
+            ]
+         },
+         {
+            "text":"I loss of pay out of office from tomorrow to yesterday",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":28,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":54,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"to yesterday"
+               }
+            ]
+         },
+         {
+            "text":"I will be wedding can't come from today to 27 aug",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"wedding"
+               },
+               {
+                  "end":39,
+                  "entity":"from_date",
+                  "start":29,
+                  "value":"from today"
+               },
+               {
+                  "end":49,
+                  "entity":"to_date",
+                  "start":40,
+                  "value":"to 27 aug"
+               }
+            ]
+         },
+         {
+            "text":"I am on going out",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply maternity out of office from 27 aug and 27 august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"maternity"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":55,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"and 27 august"
+               }
+            ]
+         },
+         {
+            "text":"I am on paternity going out from 27th august to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"paternity"
+               },
+               {
+                  "end":44,
+                  "entity":"from_date",
+                  "start":28,
+                  "value":"from 27th august"
+               },
+               {
+                  "end":59,
+                  "entity":"to_date",
+                  "start":45,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"I am on casual leave from 22 june 2019 and 27 august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"casual"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":21,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":52,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"and 27 august"
+               }
+            ]
+         },
+         {
+            "text":"I am leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be casual leave from 27th august and 27 august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":16,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"casual"
+               },
+               {
+                  "end":39,
+                  "entity":"from_date",
+                  "start":23,
+                  "value":"from 27th august"
+               },
+               {
+                  "end":53,
+                  "entity":"to_date",
+                  "start":40,
+                  "value":"and 27 august"
+               }
+            ]
+         },
+         {
+            "text":"am maternity leave from 27th august and 27 august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":3,
+                  "value":"maternity"
+               },
+               {
+                  "end":35,
+                  "entity":"from_date",
+                  "start":19,
+                  "value":"from 27th august"
+               },
+               {
+                  "end":49,
+                  "entity":"to_date",
+                  "start":36,
+                  "value":"and 27 august"
+               }
+            ]
+         },
+         {
+            "text":"I paternity leave from today till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"paternity"
+               },
+               {
+                  "end":28,
+                  "entity":"from_date",
+                  "start":18,
+                  "value":"from today"
+               },
+               {
+                  "end":42,
+                  "entity":"to_date",
+                  "start":29,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+        {
+        "text": "from 21 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "from 21 september",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 11 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "to 11 july",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 14 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "from 14 april",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 16 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "from 16 january",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 15 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 15 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 8 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "to 8 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 22 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 22 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 31 february",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "from 31 february",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 5 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "from 5 march",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 9 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "from 9 april",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 5 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 5 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 19 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "from 19 november",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 17 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "to 17 march",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 28 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 28 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 3 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "to 3 april",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 13 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "to 13 july",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 1 february",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 1 february",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 1 august",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "from 1 august",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 31 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to 31 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 5 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "from 5 november",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 2 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 2 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 2 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "to 2 october",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 15 december",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 15 december",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 8 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "from 8 april",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 16 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "from 16 may",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 26 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 26 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 29 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 29 october",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 22 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 22 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 14 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 14 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 2 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 2 september",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 29 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 29 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 21 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to 21 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 22 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "to 22 march",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 8 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "to 8 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 18 august",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "to 18 august",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 22 august",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "to 22 august",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 30 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "to 30 september",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 18 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 18 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 16 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "from 16 october",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 20 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 20 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 21 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "from 21 july",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 25 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "from 25 june",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 3 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "to 3 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 6 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to 6 june",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 12 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "from 12 june",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 23 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to 23 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 3 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "from 3 may",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 2 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "to 2 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 19 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "to 19 july",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 14 december",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "from 14 december",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 25 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "to 25 october",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 24 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "from 24 march",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 9 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "from 9 july",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 5 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "to 5 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "from 7 december",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "from 7 december",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 5 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "between 5 september",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 1 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "between 1 january",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 5 february",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "between 5 february",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 16 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "between 16 march",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 18 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "between 18 april",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 20 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "between 20 april",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 19 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "between 19 may",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 23 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "between 23 june",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 7 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "between 7 july",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 13 august",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "between 13 august",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 17 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "between 17 september",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 19 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "between 19 october",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 26 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "between 26 november",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "between 28 december",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "between 28 december",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "and 10 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "and 10 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 12 february",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "and 12 february",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 14 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "and 14 march",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 22 april",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "and 22 april",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 16 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "and 16 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 22 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "and 22 june",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 10 july",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "and 10 july",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 13 august",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "and 13 august",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 17 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "and 17 september",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 10 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "and 10 october",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 15 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "and 15 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "and 22 december",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "and 22 december",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 5 january",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "till 5 january",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 24 february",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "till 24 february",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 10 march",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "till 10 march",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 16 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "till 16 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 20 september",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "till 20 september",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 5 october",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "till 5 october",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 18 november",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "till 18 november",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "till 10 december",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "till 10 december",
+            "entity": "to_date"
+          }
+        ]
+      },
+        {
+        "text": "from 20-05-2019",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "from 20-05-2019",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 25-05-2019",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "from 25-05-2019",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "on 25 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "on 25 may",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "on 27-05-2019",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "on 27-05-2019",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 24 may 2019",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "from 24 may 2019",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "on 26 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "on 26 may",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "from 1 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "from 1 june",
+            "entity": "from_date"
+          }
+        ]
+      },
+      {
+        "text": "to 27 may",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to 27 may",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 26 may 2019",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 26 may 2019",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to 1 june",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to 1 june",
+            "entity": "to_date"
+          }
+        ]
+      },
+      {
+        "text": "to june 5",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "to june 5",
+            "entity": "to_date"
+          }
+        ]
+      },
+        {
+        "text": "to 28-may-2019",
+        "intent": "leave_date",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "to 28-may-2019",
+            "entity": "to_date"
+          }
+        ]
+      },
+        {
+        "text": "sick",
+        "intent": "leave_category",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "sick",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "casual",
+        "intent": "leave_category",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "casual",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "maternity",
+        "intent": "leave_category",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "maternity",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "paternity",
+        "intent": "leave_category",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "paternity",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "loss of pay",
+        "intent": "leave_category",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "loss of pay",
+            "entity": "leave_type"
+          }
+        ]
+      },
+      {
+        "text": "wedding",
+        "intent": "leave_category",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "wedding",
+            "entity": "leave_type"
+          }
+        ]
+      },
+         {
+            "text":"will be going out",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I am on paternity out of office from yesterday to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"paternity"
+               },
+               {
+                  "end":46,
+                  "entity":"from_date",
+                  "start":32,
+                  "value":"from yesterday"
+               },
+               {
+                  "end":60,
+                  "entity":"to_date",
+                  "start":47,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"I am on wedding unavailable from 13-05-2019 to 27th aug",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"wedding"
+               },
+               {
+                  "end":43,
+                  "entity":"from_date",
+                  "start":28,
+                  "value":"from 13-05-2019"
+               },
+               {
+                  "end":55,
+                  "entity":"to_date",
+                  "start":44,
+                  "value":"to 27th aug"
+               }
+            ]
+         },
+         {
+            "text":"apply leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be wedding unavailable from 22nd june 2019 to yesterday",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"wedding"
+               },
+               {
+                  "end":49,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":62,
+                  "entity":"to_date",
+                  "start":50,
+                  "value":"to yesterday"
+               }
+            ]
+         },
+         {
+            "text":"I need maternity unavailable from 22nd june 2019 to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":16,
+                  "entity":"leave_type",
+                  "start":7,
+                  "value":"maternity"
+               },
+               {
+                  "end":48,
+                  "entity":"from_date",
+                  "start":29,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":63,
+                  "entity":"to_date",
+                  "start":49,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"am maternity personal time off from 22nd june 2019 to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":3,
+                  "value":"maternity"
+               },
+               {
+                  "end":50,
+                  "entity":"from_date",
+                  "start":31,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":65,
+                  "entity":"to_date",
+                  "start":51,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"am can't come",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be out of office",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I need sick out of office from 22nd june 2019 to tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":7,
+                  "value":"sick"
+               },
+               {
+                  "end":45,
+                  "entity":"from_date",
+                  "start":26,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":57,
+                  "entity":"to_date",
+                  "start":46,
+                  "value":"to tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"I am paternity leave from 22nd june 2019 to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"paternity"
+               },
+               {
+                  "end":40,
+                  "entity":"from_date",
+                  "start":21,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":55,
+                  "entity":"to_date",
+                  "start":41,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"I am on casual ooo from 22 june 2019 to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"casual"
+               },
+               {
+                  "end":36,
+                  "entity":"from_date",
+                  "start":19,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":53,
+                  "entity":"to_date",
+                  "start":37,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"I sick leave between 27 august to yesterday",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":6,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"sick"
+               },
+               {
+                  "end":30,
+                  "entity":"from_date",
+                  "start":13,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":43,
+                  "entity":"to_date",
+                  "start":31,
+                  "value":"to yesterday"
+               }
+            ]
+         },
+         {
+            "text":"apply for leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply for personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"am leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"will be leave",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I am wedding out of office from today to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"wedding"
+               },
+               {
+                  "end":37,
+                  "entity":"from_date",
+                  "start":27,
+                  "value":"from today"
+               },
+               {
+                  "end":54,
+                  "entity":"to_date",
+                  "start":38,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"am paternity going out from 22nd june 2019 to 27th aug",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":3,
+                  "value":"paternity"
+               },
+               {
+                  "end":42,
+                  "entity":"from_date",
+                  "start":23,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":54,
+                  "entity":"to_date",
+                  "start":43,
+                  "value":"to 27th aug"
+               }
+            ]
+         },
+         {
+            "text":"I sick out of office from 27th aug to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":6,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"sick"
+               },
+               {
+                  "end":34,
+                  "entity":"from_date",
+                  "start":21,
+                  "value":"from 27th aug"
+               },
+               {
+                  "end":51,
+                  "entity":"to_date",
+                  "start":35,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"I am on out of office",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply paternity going out from 22 june 2019 to 22 june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"paternity"
+               },
+               {
+                  "end":43,
+                  "entity":"from_date",
+                  "start":26,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":59,
+                  "entity":"to_date",
+                  "start":44,
+                  "value":"to 22 june 2019"
+               }
+            ]
+         },
+         {
+            "text":"I am personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I am maternity going out from 22nd june 2019 to 22nd june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"maternity"
+               },
+               {
+                  "end":44,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":62,
+                  "entity":"to_date",
+                  "start":45,
+                  "value":"to 22nd june 2019"
+               }
+            ]
+         },
+         {
+            "text":"I am maternity going out from tomorrow and 27 august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"maternity"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":52,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"and 27 august"
+               }
+            ]
+         },
+         {
+            "text":"I paternity going out from 22 june 2019 to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"paternity"
+               },
+               {
+                  "end":39,
+                  "entity":"from_date",
+                  "start":22,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":56,
+                  "entity":"to_date",
+                  "start":40,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"I am sick leave from 27th aug to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":9,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"sick"
+               },
+               {
+                  "end":29,
+                  "entity":"from_date",
+                  "start":16,
+                  "value":"from 27th aug"
+               },
+               {
+                  "end":44,
+                  "entity":"to_date",
+                  "start":30,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"I need ooo",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"need personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be loss of pay can't come from 22nd june 2019 to today",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":21,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":52,
+                  "entity":"from_date",
+                  "start":33,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":61,
+                  "entity":"to_date",
+                  "start":53,
+                  "value":"to today"
+               }
+            ]
+         },
+         {
+            "text":"apply paternity ooo from 22nd june 2019 to tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"paternity"
+               },
+               {
+                  "end":39,
+                  "entity":"from_date",
+                  "start":20,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":51,
+                  "entity":"to_date",
+                  "start":40,
+                  "value":"to tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"am on paternity out of office between 27 august to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"paternity"
+               },
+               {
+                  "end":47,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":61,
+                  "entity":"to_date",
+                  "start":48,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"apply personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply sick out of office from tomorrow to today",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":10,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"sick"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":47,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"to today"
+               }
+            ]
+         },
+         {
+            "text":"I am on can't come",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply wedding ooo from 27 aug to 22 june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"wedding"
+               },
+               {
+                  "end":29,
+                  "entity":"from_date",
+                  "start":18,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":45,
+                  "entity":"to_date",
+                  "start":30,
+                  "value":"to 22 june 2019"
+               }
+            ]
+         },
+         {
+            "text":"I am on loss of pay going out from 13-05-2019 till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":19,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":45,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"from 13-05-2019"
+               },
+               {
+                  "end":59,
+                  "entity":"to_date",
+                  "start":46,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"I sick ooo from 27 aug to 22nd june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":6,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"sick"
+               },
+               {
+                  "end":22,
+                  "entity":"from_date",
+                  "start":11,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":40,
+                  "entity":"to_date",
+                  "start":23,
+                  "value":"to 22nd june 2019"
+               }
+            ]
+         },
+         {
+            "text":"apply paternity leave from 27 aug to 22nd june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"paternity"
+               },
+               {
+                  "end":33,
+                  "entity":"from_date",
+                  "start":22,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":51,
+                  "entity":"to_date",
+                  "start":34,
+                  "value":"to 22nd june 2019"
+               }
+            ]
+         },
+         {
+            "text":"apply paternity out of office from september 1st to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":15,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"paternity"
+               },
+               {
+                  "end":48,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"from september 1st"
+               },
+               {
+                  "end":63,
+                  "entity":"to_date",
+                  "start":49,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"apply for loss of pay going out from 13-05-2019 to 22nd june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":21,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":47,
+                  "entity":"from_date",
+                  "start":32,
+                  "value":"from 13-05-2019"
+               },
+               {
+                  "end":65,
+                  "entity":"to_date",
+                  "start":48,
+                  "value":"to 22nd june 2019"
+               }
+            ]
+         },
+         {
+            "text":"am personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+        {
+        "text": "I am taking maternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "please give me casual time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I am on casual personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I am on paternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "I need wedding time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "need leave time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "am on wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "please give me loss of pay leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "I am on maternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "please give me paternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "am taking leave leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "am taking casual leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "am taking casual time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I am taking leave personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "am on leave personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "I need leave time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "need leave leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "give me wedding personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "I need casual leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "please give me leave personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "please give me leave leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "am on casual leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "am taking sick leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "I am taking maternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "I need wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "I am taking paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "give me leave personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "give me sick time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "need sick personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "I am taking paternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "I need loss of pay time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "give me paternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "am on maternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "give me paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "am taking loss of pay leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "need wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "please give me wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "I need paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "need maternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "please give me paternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "please give me maternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "apply leave time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "apply sick time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "give me loss of pay personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "I am taking sick leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "I am on sick time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "am on loss of pay leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "I need wedding personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "I am taking leave leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "I am taking loss of pay personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "apply loss of pay leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "apply leave leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "apply casual leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "please give me casual personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I am on leave personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "am taking paternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "am taking loss of pay personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "I need paternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "I need casual time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I am taking wedding personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "am on paternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "I need casual personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I need sick personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "leave_type",
+            "start": 7,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "am taking leave personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "please give me maternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "give me wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "am on loss of pay time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "need paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "need casual time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "am taking sick time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "I am taking casual time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "apply maternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "give me casual leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "I am taking leave time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "apply wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "I am on loss of pay personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "apply casual time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "give me maternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "I am on wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "need paternity time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "please give me paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "need casual leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "apply sick leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "need sick leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "please give me sick personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "I am taking paternity leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "I am taking wedding leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 12,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "need maternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 5,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "am on paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "apply maternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "maternity"
+          }
+        ]
+      },
+      {
+        "text": "am taking sick personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "am on loss of pay personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "loss of pay"
+          }
+        ]
+      },
+      {
+        "text": "am on casual personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "casual"
+          }
+        ]
+      },
+      {
+        "text": "give me wedding time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "please give me sick time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "leave_type",
+            "start": 15,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "apply paternity personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "paternity"
+          }
+        ]
+      },
+      {
+        "text": "give me leave leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 8,
+            "value": "leave"
+          }
+        ]
+      },
+      {
+        "text": "am on sick leave",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "sick"
+          }
+        ]
+      },
+      {
+        "text": "am on wedding personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "leave_type",
+            "start": 6,
+            "value": "wedding"
+          }
+        ]
+      },
+      {
+        "text": "am taking casual personal time off",
+        "intent": "apply_leave",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "leave_type",
+            "start": 10,
+            "value": "casual"
+          }
+        ]
+      },
+         {
+            "text":"need wedding unavailable from tomorrow till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"wedding"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":52,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"need ooo",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I am sick personal time off from september 1st to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":9,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"sick"
+               },
+               {
+                  "end":46,
+                  "entity":"from_date",
+                  "start":28,
+                  "value":"from september 1st"
+               },
+               {
+                  "end":63,
+                  "entity":"to_date",
+                  "start":47,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"apply loss of pay unavailable from 22nd june 2019 to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":49,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":64,
+                  "entity":"to_date",
+                  "start":50,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"I am on casual can't come from 27 aug to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":14,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"casual"
+               },
+               {
+                  "end":37,
+                  "entity":"from_date",
+                  "start":26,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":51,
+                  "entity":"to_date",
+                  "start":38,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"am on loss of pay personal time off from 27th august to 22nd june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"loss of pay"
+               },
+               {
+                  "end":52,
+                  "entity":"from_date",
+                  "start":36,
+                  "value":"from 27th august"
+               },
+               {
+                  "end":70,
+                  "entity":"to_date",
+                  "start":53,
+                  "value":"to 22nd june 2019"
+               }
+            ]
+         },
+         {
+            "text":"I wedding going out from tomorrow to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":9,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"wedding"
+               },
+               {
+                  "end":33,
+                  "entity":"from_date",
+                  "start":20,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":50,
+                  "entity":"to_date",
+                  "start":34,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"I going out",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I paternity personal time off from 27 aug to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"paternity"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":30,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":55,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"I sick out of office between 27 august to september 1st",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":6,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"sick"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":21,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":55,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"to september 1st"
+               }
+            ]
+         },
+         {
+            "text":"I am unavailable",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I can't come",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"will be paternity leave from yesterday to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"paternity"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":24,
+                  "value":"from yesterday"
+               },
+               {
+                  "end":53,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"I am on personal time off",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I need casual can't come from 27th august to 27 aug",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":7,
+                  "value":"casual"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from 27th august"
+               },
+               {
+                  "end":51,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"to 27 aug"
+               }
+            ]
+         },
+         {
+            "text":"I will be can't come",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be wedding personal time off from 22 june 2019 till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":17,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"wedding"
+               },
+               {
+                  "end":53,
+                  "entity":"from_date",
+                  "start":36,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":67,
+                  "entity":"to_date",
+                  "start":54,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"apply for maternity unavailable from september 1st till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":19,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"maternity"
+               },
+               {
+                  "end":50,
+                  "entity":"from_date",
+                  "start":32,
+                  "value":"from september 1st"
+               },
+               {
+                  "end":64,
+                  "entity":"to_date",
+                  "start":51,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"will be sick personal time off from 22 june 2019 to 22 june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"sick"
+               },
+               {
+                  "end":48,
+                  "entity":"from_date",
+                  "start":31,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":64,
+                  "entity":"to_date",
+                  "start":49,
+                  "value":"to 22 june 2019"
+               }
+            ]
+         },
+         {
+            "text":"apply out of office",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply for out of office",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I ooo",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I will be unavailable",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply wedding can't come from 27th aug to yesterday",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"wedding"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from 27th aug"
+               },
+               {
+                  "end":51,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"to yesterday"
+               }
+            ]
+         },
+         {
+            "text":"apply for paternity leave between 27 august till tomorrow",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":19,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"paternity"
+               },
+               {
+                  "end":43,
+                  "entity":"from_date",
+                  "start":26,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":57,
+                  "entity":"to_date",
+                  "start":44,
+                  "value":"till tomorrow"
+               }
+            ]
+         },
+         {
+            "text":"I sick going out between 27 august to 22 june 2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":6,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"sick"
+               },
+               {
+                  "end":34,
+                  "entity":"from_date",
+                  "start":17,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":50,
+                  "entity":"to_date",
+                  "start":35,
+                  "value":"to 22 june 2019"
+               }
+            ]
+         },
+         {
+            "text":"am on wedding going out from 22nd june 2019 and 27 august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"wedding"
+               },
+               {
+                  "end":43,
+                  "entity":"from_date",
+                  "start":24,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":57,
+                  "entity":"to_date",
+                  "start":44,
+                  "value":"and 27 august"
+               }
+            ]
+         },
+         {
+            "text":"I maternity leave from yesterday to today",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"maternity"
+               },
+               {
+                  "end":32,
+                  "entity":"from_date",
+                  "start":18,
+                  "value":"from yesterday"
+               },
+               {
+                  "end":41,
+                  "entity":"to_date",
+                  "start":33,
+                  "value":"to today"
+               }
+            ]
+         },
+         {
+            "text":"apply for unavailable",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"apply for ooo",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I am wedding personal time off from september 1st to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"wedding"
+               },
+               {
+                  "end":49,
+                  "entity":"from_date",
+                  "start":31,
+                  "value":"from september 1st"
+               },
+               {
+                  "end":63,
+                  "entity":"to_date",
+                  "start":50,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"will be sick unavailable from 22nd june 2019 to yesterday",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":8,
+                  "value":"sick"
+               },
+               {
+                  "end":44,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from 22nd june 2019"
+               },
+               {
+                  "end":57,
+                  "entity":"to_date",
+                  "start":45,
+                  "value":"to yesterday"
+               }
+            ]
+         },
+         {
+            "text":"need casual can't come from september 1st to today",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":5,
+                  "value":"casual"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":23,
+                  "value":"from september 1st"
+               },
+               {
+                  "end":50,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"to today"
+               }
+            ]
+         },
+         {
+            "text":"am on wedding can't come from 27th aug to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":13,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"wedding"
+               },
+               {
+                  "end":38,
+                  "entity":"from_date",
+                  "start":25,
+                  "value":"from 27th aug"
+               },
+               {
+                  "end":52,
+                  "entity":"to_date",
+                  "start":39,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"I need paternity leave from 22 june 2019 to 27th aug",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":16,
+                  "entity":"leave_type",
+                  "start":7,
+                  "value":"paternity"
+               },
+               {
+                  "end":40,
+                  "entity":"from_date",
+                  "start":23,
+                  "value":"from 22 june 2019"
+               },
+               {
+                  "end":52,
+                  "entity":"to_date",
+                  "start":41,
+                  "value":"to 27th aug"
+               }
+            ]
+         },
+         {
+            "text":"am on out of office",
+            "intent":"apply_leave",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"I maternity leave from 27 aug to 27th august",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":11,
+                  "entity":"leave_type",
+                  "start":2,
+                  "value":"maternity"
+               },
+               {
+                  "end":29,
+                  "entity":"from_date",
+                  "start":18,
+                  "value":"from 27 aug"
+               },
+               {
+                  "end":44,
+                  "entity":"to_date",
+                  "start":30,
+                  "value":"to 27th august"
+               }
+            ]
+         },
+         {
+            "text":"I will be paternity ooo between 27 august to 13-05-2019",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":19,
+                  "entity":"leave_type",
+                  "start":10,
+                  "value":"paternity"
+               },
+               {
+                  "end":41,
+                  "entity":"from_date",
+                  "start":24,
+                  "value":"between 27 august"
+               },
+               {
+                  "end":55,
+                  "entity":"to_date",
+                  "start":42,
+                  "value":"to 13-05-2019"
+               }
+            ]
+         },
+         {
+            "text":"apply casual leave from tomorrow to yesterday",
+            "intent":"apply_leave",
+            "entities":[
+               {
+                  "end":12,
+                  "entity":"leave_type",
+                  "start":6,
+                  "value":"casual"
+               },
+               {
+                  "end":32,
+                  "entity":"from_date",
+                  "start":19,
+                  "value":"from tomorrow"
+               },
+               {
+                  "end":45,
+                  "entity":"to_date",
+                  "start":33,
+                  "value":"to yesterday"
+               }
+            ]
+         },
+         {
+            "text":"bot are you there",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"bot are you there good day are you around",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"bot are you there good morning",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey buddy how are things going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello buddy good night",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey buddy good afternoon how are you",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi bot good morning whats up",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey good day whats up",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot greetings whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello good afternoon",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello morning whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello bot",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello bot greetings how are things going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi buddy good day how are things going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"bot are you there good afternoon how are you doing",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey buddy good morning whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey whats up",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"greetings are you around?",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi buddy greetings are you there",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello greetings whats up",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello good morning whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey good afternoon",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello buddy good afternoon how is it going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi are you around?",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi bot greetings how is it going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"good night whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot good night are you there",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello good morning sup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi bot morning whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello buddy greetings how are things going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey buddy",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot morning are you around?",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi buddy morning how are you doing",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot morning how are things going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello buddy good night are you around",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi good day whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot morning whatsup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hello bot good morning how are things going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi bot good night are you there",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"bot are you there good night sup",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot greetings are you around?",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hey bot good morning are you there",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"good morning how is it going",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi bot how are you doing",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"greetings are you there",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"hi good morning whats up",
+            "intent":"greet",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"chao thank you",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"goodbye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you bot gtg",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"talk to you soon farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you bot adios",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"im leaving now",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"heading out",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"ttyl thanks alot",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"ttyl thank you bot",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"im leaving now farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"heading out chao",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you chao",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"adios",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"going out adieu",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"chao",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"got to go farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"talk to you later chao",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you soo much bye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"chau",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"gtg",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks so much goodbye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"talk to you soon goodbye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"got to go bye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"going out goodbye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks so much chao",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"see you later",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"farewell thank you bot",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"im leaving now gtg",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"ttyl thanks",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"have to go ttyl",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"going out farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks so much adieu",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks so much chau",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"ttyl",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you adieu",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"adios thanks so much",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"heading out bye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks bye",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"chau thanks",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"goodbye thanks alot",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"talk to you later chau",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"goodbye thanks so much",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"have to go see you later",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"going out adios",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you gtg",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thanks so much farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"leaving adios",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+         {
+            "text":"thank you soo much farewell",
+            "intent":"goodbye",
+            "entities":[
+
+            ]
+         },
+	{
+        "text": "xzcblosakkjas",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+      {
+        "text": "akjbwekbhsdcsk",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+      {
+        "text": "sgikbjdsklsdskj",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+      {
+        "text": "dfoiklerlreioklq",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+      {
+        "text": "need pizza",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+        {
+        "text": "need burger",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+        {
+        "text": "order a pizza",
+        "intent": "out_of_scope",
+        "entities": []
+      },
+        {
+        "text": "need coffee",
+        "intent": "out_of_scope",
+        "entities": []
+      }
+      ]
+}
+      }

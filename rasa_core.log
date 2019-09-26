@@ -1,0 +1,621 @@
+Rasa process starting
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "sick"}' after the action.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "sick"}' after the action.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "sick"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 21 june"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 22 june"}' after the action.
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "sick"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": null}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": null}' after the action.
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "paternity"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 24 - 06 - 2019"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 25 - 06 - 2019"}' after the action.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "paternity"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 23 june"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 24 june"}' after the action.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "paternity"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 23 june"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 25 july"}' after the action.
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "sick"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": null}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": null}' after the action.
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "casual"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 24 - 06 - 2019"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 25 - 06 - 2019"}' after the action.
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "casual"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 21 june 2019"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 23 june 2019"}' after the action.
+Action 'action_apply_leave' set a slot type 'leave_type' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"leave_type": "sick"}' after the action.
+Action 'action_apply_leave' set a slot type 'from_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"from_date": "from 21 june"}' after the action.
+Action 'action_apply_leave' set a slot type 'to_date' that it never set during the training. This can throw of the prediction. Make sure to include training examples in your stories for the different types of slots this action can return. Remember: you need to set the slots manually in the stories by adding '- slot{"to_date": "to 23 june 2019"}' after the action.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session 40610374c2f84d259fb5727bd5071e48
+Invalid session 40610374c2f84d259fb5727bd5071e48
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_default_fallback'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_default_fallback'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_on_date'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_on_date'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session d0d531972ac24ecc934b6d2f150bac1c
+Invalid session d0d531972ac24ecc934b6d2f150bac1c
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Failed to run custom action 'action_apply_leave'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_apply_leave'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session 927b36b2d91f4e2ebae30bfc770dd2a1
+Invalid session 927b36b2d91f4e2ebae30bfc770dd2a1
+Invalid session 927b36b2d91f4e2ebae30bfc770dd2a1
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session a31a5bfdd88247198693fd4a5108697b
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session eee8aed961ba4644b60a74e9c58b0a42
+Invalid session eee8aed961ba4644b60a74e9c58b0a42
+Invalid session 2580c89530804293a1d9a3b804955f0f
+Invalid session 2580c89530804293a1d9a3b804955f0f
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Invalid session 9eced26117984ae99468dba0c6b6adc3
+Invalid session 9eced26117984ae99468dba0c6b6adc3
+Invalid session 9eced26117984ae99468dba0c6b6adc3
+Invalid session 627379da04614d739d66e6b9fbe4d074
+Invalid session 627379da04614d739d66e6b9fbe4d074
+Invalid session 627379da04614d739d66e6b9fbe4d074
+Invalid session f191f9ec39ef42f3a602bbad00bb0918
+Invalid session f191f9ec39ef42f3a602bbad00bb0918
+Invalid session f191f9ec39ef42f3a602bbad00bb0918
+Invalid session 5a3000d8a2e649c8a158e9414b5a27f1
+Invalid session fffff4f54fa64df78249758a7a907065
+Invalid session 5a3000d8a2e649c8a158e9414b5a27f1
+Invalid session 5a3000d8a2e649c8a158e9414b5a27f1
+Invalid session fffff4f54fa64df78249758a7a907065
+Invalid session 3bee6f36725b46319862287af253f5cf
+Invalid session 3bee6f36725b46319862287af253f5cf
+Invalid session 3bee6f36725b46319862287af253f5cf
+Invalid session bb15e2dde2304db0ab452d8cfcfdc583
+Invalid session bb15e2dde2304db0ab452d8cfcfdc583
+Invalid session bb15e2dde2304db0ab452d8cfcfdc583
+Invalid session f1c08855ec274696a55e2893f3c75556
+Invalid session f1c08855ec274696a55e2893f3c75556
+Invalid session f1c08855ec274696a55e2893f3c75556
+Invalid session e018c99a4cb74943a82d902315bc606a
+Invalid session e018c99a4cb74943a82d902315bc606a
+Invalid session e018c99a4cb74943a82d902315bc606a
+Invalid session c04146c47d9c409986d9de3791777f4e
+Invalid session c04146c47d9c409986d9de3791777f4e
+Invalid session c04146c47d9c409986d9de3791777f4e
+Invalid session 706d9b713b4d4991bb62d27834ee0c67
+Invalid session 706d9b713b4d4991bb62d27834ee0c67
+Invalid session 706d9b713b4d4991bb62d27834ee0c67
+Invalid session 7b1d1b5f03b74a7f9f26387f9b6d7edc
+Invalid session 7b1d1b5f03b74a7f9f26387f9b6d7edc
+Invalid session 7b1d1b5f03b74a7f9f26387f9b6d7edc
+Invalid session 9257ee1bea884ca48e492b6a35562f68
+Invalid session 9257ee1bea884ca48e492b6a35562f68
+Invalid session 9257ee1bea884ca48e492b6a35562f68
+Invalid session e2ccb3745e7148c78d3f1213dc59b897
+Invalid session e2ccb3745e7148c78d3f1213dc59b897
+Invalid session e2ccb3745e7148c78d3f1213dc59b897
+Invalid session 5263393514f14621b2d65f68625ea72a
+Invalid session 5263393514f14621b2d65f68625ea72a
+Invalid session 5263393514f14621b2d65f68625ea72a
+Invalid session a835832c856748b6bc75c45280de9b0e
+Invalid session a835832c856748b6bc75c45280de9b0e
+Invalid session a835832c856748b6bc75c45280de9b0e
+Invalid session 005302da70ad47f9a86b3cb8a3fa63f7
+Invalid session 005302da70ad47f9a86b3cb8a3fa63f7
+Invalid session 005302da70ad47f9a86b3cb8a3fa63f7
+Invalid session d5817adbeb2e401186cf4a98f29d608e
+Invalid session d5817adbeb2e401186cf4a98f29d608e
+Invalid session d5817adbeb2e401186cf4a98f29d608e
+Invalid session e159b8f5e92a4fa897370eaae651e3e8
+Invalid session e159b8f5e92a4fa897370eaae651e3e8
+Invalid session e159b8f5e92a4fa897370eaae651e3e8
+Invalid session 16f611db7e0d4a5dbfa812c25abd6370
+Invalid session 16f611db7e0d4a5dbfa812c25abd6370
+Invalid session 16f611db7e0d4a5dbfa812c25abd6370
+Invalid session 1ddaa4dc586843d9a0a31edabf18560f
+Invalid session 1ddaa4dc586843d9a0a31edabf18560f
+Invalid session 1ddaa4dc586843d9a0a31edabf18560f
+Invalid session 03026e6e18a94dfdb476aab963ef12a4
+Invalid session 03026e6e18a94dfdb476aab963ef12a4
+Invalid session 03026e6e18a94dfdb476aab963ef12a4
+Invalid session 82023a7746134c50b104098622ed739a
+Invalid session 82023a7746134c50b104098622ed739a
+Invalid session 82023a7746134c50b104098622ed739a
+Invalid session 7ec0f036ea274f5e80313ef5209c51d2
+Invalid session 7ec0f036ea274f5e80313ef5209c51d2
+Invalid session 7ec0f036ea274f5e80313ef5209c51d2
+Invalid session 0ac23bcf21a54c1d90d071981756028a
+Invalid session 0ac23bcf21a54c1d90d071981756028a
+Invalid session 0ac23bcf21a54c1d90d071981756028a
+Invalid session 571f888d30a540a6b324f949305bca6e
+Invalid session 571f888d30a540a6b324f949305bca6e
+Invalid session 571f888d30a540a6b324f949305bca6e
+Invalid session 0b76f5a0c21e4e1ba49c302f707b7183
+Invalid session 0b76f5a0c21e4e1ba49c302f707b7183
+Invalid session 0b76f5a0c21e4e1ba49c302f707b7183
+Invalid session 398725d690c94a35a12558a6813d9dab
+Invalid session 398725d690c94a35a12558a6813d9dab
+Invalid session 398725d690c94a35a12558a6813d9dab
+Invalid session fc2a9601bc414c14ab18a26a12fd9d1f
+Invalid session fc2a9601bc414c14ab18a26a12fd9d1f
+Invalid session fc2a9601bc414c14ab18a26a12fd9d1f
+Invalid session 367aac52c8f545788c93db06268a003c
+Invalid session 367aac52c8f545788c93db06268a003c
+Invalid session 367aac52c8f545788c93db06268a003c
+Invalid session 518741078f2546cdb15d90cce59bc953
+Invalid session 518741078f2546cdb15d90cce59bc953
+Invalid session 518741078f2546cdb15d90cce59bc953
+Invalid session 12b9dc1a7b55406292fea0b6c3d6e8de
+Invalid session 12b9dc1a7b55406292fea0b6c3d6e8de
+Invalid session 12b9dc1a7b55406292fea0b6c3d6e8de
+Invalid session b8a6dd227cdb420fa60b1e3a5ed1da84
+Invalid session b8a6dd227cdb420fa60b1e3a5ed1da84
+Invalid session b8a6dd227cdb420fa60b1e3a5ed1da84
+Invalid session c8809b4e70004a659d14e5edbcd7fdf0
+Invalid session c8809b4e70004a659d14e5edbcd7fdf0
+Invalid session c8809b4e70004a659d14e5edbcd7fdf0
+Invalid session 720da36f092c483c8326ee7dfcc0572c
+Invalid session 720da36f092c483c8326ee7dfcc0572c
+Invalid session 720da36f092c483c8326ee7dfcc0572c
+Invalid session 33437dee1705414fb28339f4a1f10435
+Invalid session 33437dee1705414fb28339f4a1f10435
+Invalid session 33437dee1705414fb28339f4a1f10435
+Invalid session 5e80faaebe364725a900b039dfc0859b
+Invalid session 5e80faaebe364725a900b039dfc0859b
+Invalid session fd8455fc6e1a47d5a7ffc792fd31edcc
+Invalid session 5e80faaebe364725a900b039dfc0859b
+Invalid session fd8455fc6e1a47d5a7ffc792fd31edcc
+Invalid session 6be00565ffb64842a378ea3852ef159d
+Invalid session 6be00565ffb64842a378ea3852ef159d
+Invalid session 6be00565ffb64842a378ea3852ef159d
+Invalid session 1d2e891e17d0467fba2b9387d1df7715
+Invalid session 1d2e891e17d0467fba2b9387d1df7715
+Invalid session 1d2e891e17d0467fba2b9387d1df7715
+Invalid session dafe002b129c4fabafa8df1a2fc11aca
+Invalid session dafe002b129c4fabafa8df1a2fc11aca
+Invalid session dafe002b129c4fabafa8df1a2fc11aca
+Invalid session 2ac4fbda5f374fa1845c37ad60fcd717
+Invalid session 2ac4fbda5f374fa1845c37ad60fcd717
+Invalid session 2ac4fbda5f374fa1845c37ad60fcd717
+Invalid session 5dbcb6eaf044412fb54611e66643e047
+Invalid session 5dbcb6eaf044412fb54611e66643e047
+Invalid session 5dbcb6eaf044412fb54611e66643e047
+Invalid session ef7a3f6b59c54466a413e46175e021f7
+Invalid session ef7a3f6b59c54466a413e46175e021f7
+Invalid session ef7a3f6b59c54466a413e46175e021f7
+Invalid session 81ebe9968bfb48fc8612a7573ab17a43
+Invalid session 81ebe9968bfb48fc8612a7573ab17a43
+Invalid session 81ebe9968bfb48fc8612a7573ab17a43
+Invalid session c707cdf070db43f9bdf21ca9dfc90a9a
+Invalid session c707cdf070db43f9bdf21ca9dfc90a9a
+Invalid session c707cdf070db43f9bdf21ca9dfc90a9a
+Invalid session 5f8a488a27f14f95b83bb25f8116a8c2
+Invalid session 5f8a488a27f14f95b83bb25f8116a8c2
+Invalid session 5f8a488a27f14f95b83bb25f8116a8c2
+Invalid session c7990cbf3dcc46108f0830884c2f7b07
+Invalid session 299e04c8afa549fd872cd4115068d2bc
+Invalid session 50ad88b2804845e28ab6b3ce8dac26d3
+Invalid session d0361e7879b741a8995186784ccd760e
+Invalid session c7990cbf3dcc46108f0830884c2f7b07
+Invalid session d0361e7879b741a8995186784ccd760e
+Invalid session 50ad88b2804845e28ab6b3ce8dac26d3
+Invalid session 299e04c8afa549fd872cd4115068d2bc
+Invalid session c7990cbf3dcc46108f0830884c2f7b07
+Invalid session 106b462e3f954d4caa96880762ab1ea9
+Invalid session 106b462e3f954d4caa96880762ab1ea9
+Invalid session 106b462e3f954d4caa96880762ab1ea9
+Invalid session 3d1430ebd8634088b941871d8ab543a5
+Invalid session 3d1430ebd8634088b941871d8ab543a5
+Invalid session 3d1430ebd8634088b941871d8ab543a5
+Invalid session bf9011b0536140b19bbfce330c18069f
+Invalid session 0729b9a0637d48bab15697e85f181195
+Invalid session bf9011b0536140b19bbfce330c18069f
+Invalid session 0729b9a0637d48bab15697e85f181195
+Invalid session bf9011b0536140b19bbfce330c18069f
+Invalid session edf46b0d52214c83b30bf76df77b93a2
+Invalid session edf46b0d52214c83b30bf76df77b93a2
+Invalid session edf46b0d52214c83b30bf76df77b93a2
+Invalid session 26ce567aaa0e4d778079229377166bdd
+Invalid session 26ce567aaa0e4d778079229377166bdd
+Invalid session 26ce567aaa0e4d778079229377166bdd
+Invalid session 12ddfab09ce946bc84ca2495edc70dba
+Invalid session 12ddfab09ce946bc84ca2495edc70dba
+Invalid session 12ddfab09ce946bc84ca2495edc70dba
+Invalid session 9dca13ea82c44564af13245a09d9ef38
+Invalid session 9dca13ea82c44564af13245a09d9ef38
+Invalid session 9dca13ea82c44564af13245a09d9ef38
+Invalid session ba02b45a177548b4b1afff6169c439a4
+Invalid session ba02b45a177548b4b1afff6169c439a4
+Invalid session ba02b45a177548b4b1afff6169c439a4
+Invalid session 7e80b510fd7a471ab6353fec11d75778
+Invalid session 7e80b510fd7a471ab6353fec11d75778
+Invalid session 7e80b510fd7a471ab6353fec11d75778
+Invalid session b7a0bed3f8ce47ba84f1605f20019d87
+Invalid session b7a0bed3f8ce47ba84f1605f20019d87
+Invalid session b7a0bed3f8ce47ba84f1605f20019d87
+Invalid session 38902b1b189c481aa02dd1f0354660c2
+Invalid session 38902b1b189c481aa02dd1f0354660c2
+Invalid session 38902b1b189c481aa02dd1f0354660c2
+Invalid session 439e3bffca9e4ab6b3fd3c900009a42f
+Invalid session 439e3bffca9e4ab6b3fd3c900009a42f
+Invalid session 439e3bffca9e4ab6b3fd3c900009a42f
+Invalid session 0b1c08b3a0204164b8fa16518e110a9b
+Invalid session 0b1c08b3a0204164b8fa16518e110a9b
+Invalid session 0b1c08b3a0204164b8fa16518e110a9b
+Invalid session e229e24ec9ed4d3ca99267038ed15819
+Invalid session e229e24ec9ed4d3ca99267038ed15819
+Invalid session e229e24ec9ed4d3ca99267038ed15819
+Invalid session 303334e565ed4c40b7ef78f2c235231e
+Invalid session 303334e565ed4c40b7ef78f2c235231e
+Invalid session 303334e565ed4c40b7ef78f2c235231e
+Invalid session db37e711832b4631a4141abc09fe4fa1
+Invalid session db37e711832b4631a4141abc09fe4fa1
+Invalid session db37e711832b4631a4141abc09fe4fa1
+Invalid session c3b7deb8088344b7b570d157cb1f4104
+Invalid session c3b7deb8088344b7b570d157cb1f4104
+Invalid session c3b7deb8088344b7b570d157cb1f4104
+Invalid session 3e1c47a8cd304de39e63ed187b0915bd
+Invalid session 0555186304664b168274d493f1e7c38c
+Invalid session 3e1c47a8cd304de39e63ed187b0915bd
+Invalid session 7764c2a3e21b4482bf893b5afc79b79c
+Invalid session 7c9cf27d469d4f548b2899464be54a8a
+Invalid session 3e1c47a8cd304de39e63ed187b0915bd
+Invalid session b965ea746615423f87c0bb048b535656
+Invalid session 7c9cf27d469d4f548b2899464be54a8a
+Invalid session b965ea746615423f87c0bb048b535656
+Invalid session 7764c2a3e21b4482bf893b5afc79b79c
+Invalid session 0555186304664b168274d493f1e7c38c
+Invalid session 62b5a10566334bd1bd5cc5d4c9cc5a05
+Invalid session 62b5a10566334bd1bd5cc5d4c9cc5a05
+Invalid session 62b5a10566334bd1bd5cc5d4c9cc5a05
+Invalid session 2cbcad0094604fcd8f521c2f1e0150b4
+Invalid session 2cbcad0094604fcd8f521c2f1e0150b4
+Invalid session 2cbcad0094604fcd8f521c2f1e0150b4
+Invalid session 8b3c3588e0924a1b95a8c91f7a0e3dda
+Invalid session 8b3c3588e0924a1b95a8c91f7a0e3dda
+Invalid session f147de2ed32e42eabe98b4e54f360295
+Invalid session 8b3c3588e0924a1b95a8c91f7a0e3dda
+Invalid session f147de2ed32e42eabe98b4e54f360295
+Invalid session 9aadefd2c28f4eaeb59277fa87b699c9
+Invalid session 9aadefd2c28f4eaeb59277fa87b699c9
+Invalid session 9aadefd2c28f4eaeb59277fa87b699c9
+Invalid session 10adde62365c4215b2498b2557ca3bf5
+Invalid session 10adde62365c4215b2498b2557ca3bf5
+Invalid session 10adde62365c4215b2498b2557ca3bf5
+Invalid session 9edd0ef3852b45149e2f31ef23bd0dc4
+Invalid session 9edd0ef3852b45149e2f31ef23bd0dc4
+Invalid session 9edd0ef3852b45149e2f31ef23bd0dc4
+Invalid session fc5d7631468c4dbe8a74abb6477131a4
+Invalid session fc5d7631468c4dbe8a74abb6477131a4
+Invalid session fc5d7631468c4dbe8a74abb6477131a4
+Invalid session 643d42cb41c44614bfa29dd538d40a79
+Invalid session 643d42cb41c44614bfa29dd538d40a79
+Invalid session 643d42cb41c44614bfa29dd538d40a79
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_md'.
+Rasa Core server is up and running on http://localhost:5500

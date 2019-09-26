@@ -1,0 +1,61 @@
+%YAML 1.1
+---
+actions:
+- action_default_fallback
+- utter_leave_category
+- actions.ActionDefaultFallback
+- utter_apply_leave
+- actions.ActionApplyLeave
+- utter_greet
+- utter_goodbye
+- utter_done
+- utter_from_date
+- utter_to_date
+- action_apply_leave
+config:
+  store_entities_as_slots: true
+entities:
+- to_date
+- leave_type
+- from_date
+forms: []
+intents:
+- out_of_scope:
+    use_entities: true
+- leave_date:
+    use_entities: true
+- apply_leave:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- leave_category:
+    use_entities: true
+slots:
+  from_date:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  leave_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  to_date:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_done:
+  - text: Thanks. Your leave details are stored
+  utter_from_date:
+  - text: Please provide from-date
+  utter_goodbye:
+  - text: Great if I helped you.See you again.
+  utter_greet:
+  - text: Hello! How can I help you today?
+  utter_leave_category:
+  - text: Okay.Please tell me the leave type(i.e casual,sick,maternity,paternity,loss
+      of pay)
+  utter_to_date:
+  - text: Please provide to-date

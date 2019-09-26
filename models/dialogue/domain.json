@@ -1,0 +1,33 @@
+{
+  "states": [
+    "intent_apply_leave",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_leave_category",
+    "intent_leave_date",
+    "intent_out_of_scope",
+    "entity_to_date",
+    "entity_leave_type",
+    "entity_from_date",
+    "slot_from_date_0",
+    "slot_leave_type_0",
+    "slot_to_date_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_utter_leave_category",
+    "prev_actions.ActionDefaultFallback",
+    "prev_utter_apply_leave",
+    "prev_actions.ActionApplyLeave",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_done",
+    "prev_utter_from_date",
+    "prev_utter_to_date",
+    "prev_action_apply_leave"
+  ]
+}

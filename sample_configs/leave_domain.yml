@@ -1,0 +1,46 @@
+%YAML 1.1
+---
+actions:
+- action_default_fallback
+- utter_leave_category
+- actions.ActionDefaultFallback
+- utter_apply_leave
+- actions.ActionApplyLeave
+- utter_greet
+- utter_goodbye
+- utter_done
+- utter_from_date
+- utter_to_date
+- action_apply_leave
+entities:
+- to_date
+- leave_type
+- from_date
+intents:
+- out_of_scope
+- leave_date
+- apply_leave
+- goodbye
+- greet
+- leave_category
+slots:
+  from_date:
+    type: text
+  leave_type:
+    type: text
+  to_date:
+    type: text
+templates:
+  utter_done:
+  - text: Thanks. Your leave details are stored
+  utter_from_date:
+  - text: Please provide from-date
+  utter_goodbye:
+  - text: Great if I helped you.See you again.
+  utter_greet:
+  - text: Hello! How can I help you today?
+  utter_leave_category:
+  - text: Okay.Please tell me the leave type(i.e casual,sick,maternity,paternity,loss
+      of pay)
+  utter_to_date:
+  - text: Please provide to-date
