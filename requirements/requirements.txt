@@ -20,7 +20,7 @@ colorhash==1.0.2
 colorize==1.0.4
 ConfigArgParse==0.13.0
 constantly==15.1.0
-cryptography==2.5
+cryptography==3.2
 cycler==0.10.0
 cymem==2.0.2
 cytoolz==0.8.2
