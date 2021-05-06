@@ -34,7 +34,7 @@ docutils==0.14
 fakeredis==0.10.3
 fbmessenger==5.4.0
 Flask==1.0
-Flask-Cors==3.0.4
+Flask-Cors==3.0.9
 Flask-JWT-Simple==0.0.3
 ftfy==4.4.3
 future==0.17.1
