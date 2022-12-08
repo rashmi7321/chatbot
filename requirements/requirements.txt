@@ -8,7 +8,7 @@ Automat==0.7.0
 blis==0.2.4
 boto3==1.9.159
 botocore==1.12.159
-certifi==2018.11.29
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 Click==7.0
